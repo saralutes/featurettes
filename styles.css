@@ -1,0 +1,157 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  background-color: #FFF2F9;
+}
+
+hr {
+  background-color: #333333;
+}
+/* images */
+.img-md {
+  width: 75%;
+  height: auto;
+  border: 5px solid #333333;
+  border-radius: 25%;
+}
+
+.img-sm {
+  width: 50%;
+  height: auto;
+  border: 5px solid #333333;
+  border-radius: 25%;
+}
+
+.logo-sm {
+  border-radius: 50%;
+}
+
+.logo-md {
+  border-radius: 25%;
+  height: 10rem;
+  width: auto;
+  z-index: 1;
+}
+.figure {
+  width: 75%;
+  height: auto;
+  text-align: center;
+  align-items: center;
+}
+
+/* Containers */
+.top-container, .middle-container {
+  padding: 1rem;
+  margin: auto;
+}
+
+.b-dk {
+  background-color: #333333;
+}
+
+.header, .bottom-container {
+  background-color: #333333;
+  color: #FA4EAB;
+  width: 100%;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: .25rem;
+}
+
+.footer {
+  text-align: center;
+  padding: .25rem;
+}
+
+/* Navbar */
+.nav-item, .nav-link {
+  color: #FE83C6;
+  font-family: 'Marcellus', 'Montserrrat', sans-serif;
+}
+
+.nav-item:hover, .nav-link:hover{
+  color: #FE83C6;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff,
+    0 0 42px #FE83C6,
+    0 0 82px #FE83C6,
+    0 0 92px #FE83C6,
+    0 0 102px #FE83C6,
+    0 0 151px #FE83C6;
+}
+
+.navbar {
+  background-color: #333333;
+}
+
+/* Headings/Text */
+.title-lg, h2 {
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #FA4EAB;
+  font-weight: bold;
+  font-size: 3rem;
+}
+.h3-pnk {
+  color: #FE83C6;
+  font-weight: bold;
+  font-family: 'Sacramento', 'Yanone Kaffeesatz', 'Merriweather', 'sans-serif';
+  font-size: 3rem;
+  padding-top: .25rem;
+}
+#startnow {
+  color: #FE83C6;
+  font-weight: bold;
+  font-family: 'Sacramento', 'Yanone Kaffeesatz', 'Merriweather', 'sans-serif';
+  font-size: 2rem;
+  padding-right: 1rem;
+}
+.title-lg-nm {
+  text-align: center;
+  font-size: 4rem;
+  font-weight: normal;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #FA4EAB;
+}
+.text-link {
+  color: #FE83C6;
+  font-weight: bold;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.text-link:hover {
+  color: #FA4EAB;
+}
+
+.footer-link {
+  color: #FE83C6;
+  font-size: 1rem;
+  font-family: 'Marcellus', 'Merriweather', 'serif';
+  margin-bottom: 25px;
+  margin-left: 15px;
+  margin-right: 15px;
+  text-decoration: none;
+}
+
+.copyright-info {
+  color: #FE83C6;
+  font-size: .75rem;
+  margin-top: 10px;
+}
+
+.footer-link:hover {
+  background-color: inherit;
+  color: #FA4EAB;
+}
+.neonText {
+  color: #FE83C6;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #FE83C6,
+    0 0 42px #FE83C6,
+    0 0 82px #FE83C6,
+    0 0 92px #FE83C6,
+    0 0 102px #FE83C6,
+    0 0 151px #FE83C6;
+}

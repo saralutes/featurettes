@@ -6,6 +6,7 @@ body {
 hr {
   background-color: #333333;
 }
+
 /* images */
 .img-md {
   width: 75%;
@@ -31,6 +32,7 @@ hr {
   width: auto;
   z-index: 1;
 }
+
 .figure {
   width: 75%;
   height: auto;
@@ -42,6 +44,10 @@ hr {
 .top-container, .middle-container {
   padding: 1rem;
   margin: auto;
+}
+
+.tiktok-embed {
+  z-index: auto;
 }
 
 .b-dk {
@@ -63,12 +69,13 @@ hr {
 }
 
 /* Navbar */
-.nav-item, .nav-link {
+
+.nav-item, .nav-link, .navbar-toggler-icon {
   color: #FE83C6;
   font-family: 'Marcellus', 'Montserrrat', sans-serif;
 }
 
-.nav-item:hover, .nav-link:hover{
+.nav-item:hover, .nav-link:hover, .navbar-toggler-icon:hover {
   color: #FE83C6;
   text-shadow:
     0 0 7px #fff,
@@ -79,6 +86,10 @@ hr {
     0 0 92px #FE83C6,
     0 0 102px #FE83C6,
     0 0 151px #FE83C6;
+}
+
+.navbar-toggler {
+  color: #333333;
 }
 
 .navbar {
@@ -92,6 +103,7 @@ hr {
   font-weight: bold;
   font-size: 3rem;
 }
+
 .h3-pnk {
   color: #FE83C6;
   font-weight: bold;
@@ -99,6 +111,7 @@ hr {
   font-size: 3rem;
   padding-top: .25rem;
 }
+
 #startnow {
   color: #FE83C6;
   font-weight: bold;
@@ -106,6 +119,7 @@ hr {
   font-size: 2rem;
   padding-right: 1rem;
 }
+
 .title-lg-nm {
   text-align: center;
   font-size: 4rem;
@@ -113,6 +127,7 @@ hr {
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #FA4EAB;
 }
+
 .text-link {
   color: #FE83C6;
   font-weight: bold;
@@ -143,6 +158,7 @@ hr {
   background-color: inherit;
   color: #FA4EAB;
 }
+
 .neonText {
   color: #FE83C6;
   text-shadow:

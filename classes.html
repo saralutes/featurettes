@@ -17,21 +17,21 @@
 </head>
 
 <body>
-  <nav class="navbar navbar-expand-lg sticky-top">
+  <nav class="navbar navbar-expand-md sticky-top">
     <div class="container-fluid">
       <a class="navbar-brand" href="index.html">
-        <img src="images/fOnlyLogo.png" alt="" width="125" height="auto">
-      </a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
+      <img src="images/fOnlyLogo.png" alt="logo" width="90" height="60">
+    </a>
+      <button  class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon">Menu</span>
       </button>
-      <div class="collapse navbar-collapse id=" navbarNav">
+      <div class="collapse navbar-collapse me-2" id="navbarTogglerDemo02">
         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
           <li class="nav-item">
-            <a class="nav-link" href="index.html">Home</a>
+            <a class="nav-link active" aria-current="page" href="index.html">Home</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link active" aria-current="page" href="classes.html">Classes</a>
+            <a class="nav-link" href="classes.html">Classes</a>
           </li>
           <li class="nav-item">
             <a class="nav-link" href="about.html">About</a>
@@ -48,20 +48,42 @@
           <li class="nav-item">
             <a class="nav-link" href="twirlers.html">Feature Twirlers</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#footer">Contact Us</a>
+          </li>
           <!-- <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Shop</a>
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
           </li> -->
         </ul>
+        <!-- <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form> -->
       </div>
-      <a class="text-link" target="_blank" id="startnow" href="https://docs.google.com/forms/d/e/1FAIpQLSdeCiYmi9LQL3-XnGObfsSxSut7WQbT1loXKJqm-mhvXGHb0Q/viewform?usp=sf_link">Start Twirling!</a>
+      <div class="">
+        <a class="text-link d-none d-lg-block" target="_blank" id="startnow" href="https://docs.google.com/forms/d/e/1FAIpQLSdeCiYmi9LQL3-XnGObfsSxSut7WQbT1loXKJqm-mhvXGHb0Q/viewform?usp=sf_link"> Start Twirling!</a>
+      </div>
     </div>
   </nav>
   <div class="container-fluid top-container">
     <h1 class="title-lg-nm">Learn to Twirl!</h1>
+    <ul class="nav justify-content-center">
+  <li class="nav-item">
+    <a class="nav-link"  href="#classes">Find a Class</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#coaches">Meet your Coaches</a>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="#locations">Locations</a>
+  </li>
+</ul>
   </div>
-  <div class="row row-cols-2 container-fluid">
-    <div class="container-fluid col-lg-8 col-sm-12">
-      <h2>Our Classes</h2>
+  <div class="bottom-container container-fluid">
+    <h2 id="classes">Our Classes</h2>
+  </div>
+  <div class="row container-fluid">
+    <div class="container-fluid col">
       <a class="text-link" target="_blank" href="https://www.signupgenius.com/go/70A0C49ACA62EA0F49-mayclass">Start Now!</a>
       <br>
       <br>
@@ -94,17 +116,22 @@
       <br>
       <br>
       <br>
-      <h2>Questions? Contact us! We are happy to help.</h2>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd-errSU2WzZYUZd63XugwHPT1Hf4gpffLHJU59K8inDCHsJQ/viewform?embedded=true" width="600" height="509" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
+      <!-- <h2>Questions? Contact us! We are happy to help.</h2>
+      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd-errSU2WzZYUZd63XugwHPT1Hf4gpffLHJU59K8inDCHsJQ/viewform?embedded=true" width="600" height="509" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe> -->
     </div>
-    <div class="container-fluid col-lg-4">
-      <h2>Meet our Coaches</h2>
-      <div class="col">
-        <img class="img-sm" src="images/AEintropose.jpg" alt="">
+
+  </div>
+  <div class="bottom-container container-fluid">
+    <h2 id="coaches">Meet our Coaches</h2>
+  </div>
+  <div class="row container-fluid container-top">
+      <div class="col-3">
+        <img class="img-md" src="images/AEintropose.jpg" alt="">
       </div>
-      <div class="col">
+      <div class="col-9">
         <h3 class="h3-pnk">Amanda Sporlenski</h3>
         <h3>Head Coach</h3>
+        <a class="text-link" href="https://www.instagram.com/featurettes.baton/">@featurettes.baton</a>
         <p>Upon graduating from UCM with a BA in History and two minors in Political Science & Spanish, she founded Featurettes Baton and became the UCM Baton Coordinator. She loves sharing her passion for twirling through coaching recreational,
           competitive, and collegiate twirlers.</p>
         <br>
@@ -116,11 +143,10 @@
         <p>As the UCM Feature Twirler her love for sharing baton with the community blossomed. She expanded the UCM Twirler for a Day event to include twirlers throughout the region and those new to the sport! Her time with the Marching Mules was
           just one of the many amazing opportunities baton brings to twirlers throughout the world.</p>
       </div>
-      <br>
-      <div class="col">
-        <img class="img-sm" src="images/EllaTrophies.png" alt="">
+      <div class="col-3">
+        <img class="img-md" src="images/EllaTrophies.png" alt="">
       </div>
-      <div class="col">
+      <div class="col-9">
         <h3 class="h3-pnk">Ella Post</h3>
         <h3>Assistant Coach</h3>
         <a class="text-link" href="https://www.instagram.com/sparkle_twirler4/">@sparkle_twirler4</a>
@@ -128,7 +154,30 @@
           baton, she is also amazing at teaching and encouraging. Her kind words help even the most nervous twirler feel confident!</p>
       </div>
     </div>
-  </div>
+    <div id="locations" class="container-fluid middle-container cntr">
+      <h2>Locations</h2>
+    </div>
+    <br>
+    <p>We have classes at mulitple locations. Don't see one close to you? <a class="text-link" href="https://docs.google.com/forms/d/e/1FAIpQLSd-errSU2WzZYUZd63XugwHPT1Hf4gpffLHJU59K8inDCHsJQ/viewform?usp=sf_link">Contact us</a> and we'd be happy to work with you to find the perfect Twirling location!</p>
+    <br>
+    <div id="maps" class="container-fluid row">
+      <div class="col-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49534.62697405724!2d-93.24533924674614!3d39.10842383601715!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c3a646c0e8e1a7%3A0x1d1bbf5aee0849f9!2sMarshall%2C%20MO%2065340!5e0!3m2!1sen!2sus!4v1651541415571!5m2!1sen!2sus" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d99634.61070838748!2d-93.30231834614952!3d38.70445445737294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c385c5a0cab02b%3A0x361dcef90e211e75!2sSedalia%2C%20MO%2065301!5e0!3m2!1sen!2sus!4v1651541491646!5m2!1sen!2sus" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+      <div class="col-4">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d49777.17246150696!2d-93.76096679970149!3d38.76202324967844!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87c158077798f5d1%3A0xab4d25001d42a080!2sWarrensburg%2C%20MO%2064093!5e0!3m2!1sen!2sus!4v1651541531306!5m2!1sen!2sus" width="auto" height="auto" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+    <footer class="footer b-dk" id="footer">
+      <img class="logo-md"src="images/FLogo.png" alt="">
+        <a class="footer-link" href="https://www.facebook.com/featurettes.baton">Facebook</a>
+        <a class="footer-link" href="https://www.instagram.com/featurettes.baton/">Instagram</a>
+        <a class="footer-link" href="https://www.tiktok.com/@featurettes.baton?is_from_webapp=1&sender_device=pc">TikTok</a>
+        <p class="copyright-info">©2022 Group33</p>
+    </footer>
 
 </body>
 

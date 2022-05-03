@@ -68,6 +68,19 @@ hr {
   padding: .25rem;
 }
 
+.container-top {
+  padding-bottom: 2rem;
+  margin-top: 3rem;
+}
+
+.cntr {
+  align-content: center;
+  text-align: center;
+}
+
+#maps {
+  padding-bottom: 3rem;
+}
 /* Navbar */
 
 .nav-item, .nav-link, .navbar-toggler-icon {

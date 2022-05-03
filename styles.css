@@ -22,6 +22,11 @@ hr {
   border-radius: 25%;
 }
 
+.slide {
+  width: 40%;
+  height: auto;
+}
+
 .logo-sm {
   border-radius: 50%;
 }
@@ -42,8 +47,8 @@ hr {
 
 /* Containers */
 .top-container, .middle-container {
-  padding: 1rem;
   margin: auto;
+  padding: 2rem;
 }
 
 .tiktok-embed {
@@ -61,6 +66,8 @@ hr {
   text-align: center;
   padding-top: 1rem;
   padding-bottom: .25rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
 .footer {
@@ -76,6 +83,8 @@ hr {
 .cntr {
   align-content: center;
   text-align: center;
+  justify-content: center;
+  margin: auto;
 }
 
 #maps {

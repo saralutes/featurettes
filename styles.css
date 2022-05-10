@@ -90,6 +90,11 @@ hr {
 #maps {
   padding-bottom: 3rem;
 }
+
+.cnt-spc {
+  margin-top: 2rem;
+  padding-top: 1rem;
+}
 /* Navbar */
 
 .nav-item, .nav-link, .navbar-toggler-icon {
